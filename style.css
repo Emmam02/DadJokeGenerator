@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 98vh;
+  background-color: #436258;
+  font-family: "Anton", sans-serif;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 850px;
+  border: 2px solid black;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 6px 6px 90px rgb(253, 251, 251);
+}
+.container h1 {
+  margin-top: -100px;
+  font-size: 42px;
+  margin-bottom: 70px;
+}
+
+.dadJokeHere {
+  font-size: x-large;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.container button {
+  border: none;
+  font-size: larger;
+  cursor: pointer;
+}
+.container button:hover {
+  color: #436258;
+  text-decoration: underline;
+}
